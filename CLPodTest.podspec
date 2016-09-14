@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/Lclmyname/CLPodTest"
   s.license      = "MIT"
-  s.author             = { "刘朝龙" => "1097920539@qq.com" }
+  s.author       = { "刘朝龙" => "1097920539@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Lclmyname/CLPodTest.git", :tag => "0.0.1" }
 
