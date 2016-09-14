@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 // request content types
 #define Content_TEXT    @"text/plain"
