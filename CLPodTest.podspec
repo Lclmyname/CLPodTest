@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "CLNetRequest/**/*.h"
 
-  s.frameworks = 'Foundation', 'UIKit'
+  s.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration', 'Security', 'MobileCoreServices'
   s.requires_arc = true
 
-  s.dependency "AFNetworking"
+  s.dependency 'AFNetworking'
 
 end
